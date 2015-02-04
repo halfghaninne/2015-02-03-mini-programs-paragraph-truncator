@@ -18,13 +18,13 @@ class Driver
     return_para.cut_paragraph
     puts return_para.final_truncation
     
-    # the puts method above puts the correct output, letting me know that my object method final_truncation is working correctly
+    # the puts method above returns the correct output, letting me know that my object's method final_truncation is working correctly
     #
-    # I tried to display that result in a more formatted way where the final_truncation had a placeholder variable and it was put to the screen with human language:
+    # I tried to display that result in a more human way with a placeholder variable:
     #
-    # a = return_para.final_truncation
+    #     a = return_para.final_truncation
     #
-    # puts "Here is your truncated paragraph: #{a}"
+    #     puts "Here is your truncated paragraph: #{a}"
     #
     # But I'm getting an empty space where that variable should be.
 

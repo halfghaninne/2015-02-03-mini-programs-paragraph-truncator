@@ -2,11 +2,8 @@ require 'pry'
 
 class ParagraphTruncator
   
-  #re-write with Options Hash later
-  # => options is a Hash, with the following keys
-  # para
-  # characters_visible
-  # trunc_phrase
+  #Consider re-writing  with Options Hash later
+  # => options is a Hash, with the following keys: para, characters_visible, trunc_phrase
   def initialize(para, characters_visible, trunc_phrase)
     @para = para.to_s
     @characters = characters_visible.to_i
