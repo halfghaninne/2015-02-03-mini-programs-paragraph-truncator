@@ -2,6 +2,16 @@ require 'pry'
 require 'active_support/all'
 require_relative 'as-paragraph-truncator'
 
+# Class: AsDriver
+#
+# Gathers user input to use as arguments in a new AsParagraphTruncator object.
+#
+# Attributes:
+# None.
+#
+# Public Methods:
+# + initialize
+
 class AsDriver
   
   def initialize
@@ -21,4 +31,3 @@ class AsDriver
   
 end
 
-binding.pry

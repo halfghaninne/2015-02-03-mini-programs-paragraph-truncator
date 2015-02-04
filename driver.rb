@@ -1,6 +1,16 @@
 require 'pry'
 require_relative 'paragraph-truncator'
 
+# Class: Driver
+#
+# Gathers user input to use as arguments in a new ParagraphTruncator object.
+#
+# Attributes:
+# None.
+#
+# Public Methods:
+# + initialize
+
 class Driver
   
   def initialize
